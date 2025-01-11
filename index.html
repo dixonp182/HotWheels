@@ -1,0 +1,56 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cyber Machine</title>
+    <link rel="stylesheet" href="style.css" /
+  </head>
+  <body>
+    
+    <div class="container">
+       <div class="wrapper"> 
+      <div class="slides">
+        <div class="wrapper"> 
+        <p class="Bradley">Welcome to Cyber Machine</p><br>
+       
+        <h1 class="Speed">Speed </h1>
+        
+        <h1 class="Speed" id="rand"></h1>
+        <h3 class="elegantshadow" > WOW THAT WAS FAST</h3>
+
+<button class="button" onclick="window.location.reload();"> Speed Check </button> 
+      </div>
+       <div class="slides2">
+                  
+                 
+            <div><img src="Media/s-l1200.jpg" /></div>
+            <div><img src="Media/Picture1.png" /></div>
+            <div><img src="Media/Picture2.png" /></div>
+            <div><img src="Media/Picture3.png" /></div>
+            <div><img src="Media/Picture4.png" /></div>
+</div>
+  </div>
+          </div>
+          
+        </div>
+        
+      
+      </div>
+    </div>
+  </body>
+  <script>
+function DecimalGenerate() {
+    var min = 119,
+        max = 400,
+        NumberResult = Math.random() * (max - min) + min;
+
+    var rand = document.getElementById('rand');
+     rand.textContent = NumberResult.toFixed( 0 );
+
+};
+
+DecimalGenerate();
+
+
+  </script>
+</html>

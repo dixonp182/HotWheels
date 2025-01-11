@@ -1,0 +1,190 @@
+/* Googlefont Poppins CDN Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.slides {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: rgb(163, 44, 44);
+  background: radial-gradient(#ffffff, #000000);
+}
+
+.slides img {
+  width: 700px;
+}
+.slides h2 {
+  font-size: 90px;
+  font-weight: 600;
+  max-width: 650;
+  padding: 20 20 20 20;
+}
+.slides h1 {
+  justify-self: left;
+  flex-wrap: wrap;
+  padding: 20 20 20 20;
+  text-wrap: wrap;
+}
+
+.slides h3 {
+  justify-self: left;
+  flex-wrap: wrap;
+  padding: 20 20 20 20;
+  text-wrap: wrap;
+}
+
+.slides1 {
+  background: linear-gradient(180deg, #c5c2c2, #cababa);
+}
+.filter-table {
+  border-collapse: collapse;
+}
+
+.filter-table {
+  border: thin solid grey;
+}
+
+.filter-table thead {
+  border-bottom: thin solid rgb(255, 255, 255);
+}
+
+.filter-table th,
+.filter-table td {
+  padding: 0.25em 0.5em;
+}
+
+.filter-table th {
+  background: #ed8d8d;
+}
+
+.filter-table tbody tr:nth-child(even) {
+  background: #eee;
+}
+
+.hidden-row {
+  display: none;
+}
+
+.Bradley {
+  font-size: 50px;
+  color: rgb(91, 222, 232);
+  text-shadow: #000000;
+  text-shadow: 8px 1px 10px #231f1f, 1px 1px 10px #ccc;
+}
+
+.Speed {
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  padding: 40 40 40 40;
+  text-shadow: 5px 1px 10px #0081eacc, 1px 1px 10px #ccc;
+}
+
+.fast {
+  font-size: 30px;
+  color: rgb(86, 9, 9);
+  align-items: center;
+  padding: 40 40 40 40;
+  text-shadow: 5px 1px 10px #0081eacc, 1px 1px 10px #ccc;
+}
+
+.gallery-container {
+  display: flex;
+  justify-content: center;
+}
+
+.thumbnails {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.thumbnails img {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.scrollbar {
+  width: 1px;
+  height: 720px;
+  background: #ccc;
+  display: block;
+  margin: 0 0 0 8px;
+}
+
+.thumb {
+  width: 1px;
+  position: absolute;
+  height: 0;
+  background: #000;
+}
+
+.slides2 {
+  margin: 0 16px;
+  display: grid;
+  grid-auto-flow: row;
+  gap: 1rem;
+  width: calc(540px + 1rem);
+  padding: 0 0.25rem;
+  height: 720px;
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scroll-snap-type: y mandatory;
+  scrollbar-width: none;
+}
+
+.slides > div {
+  scroll-snap-align: start;
+}
+
+.slides img {
+  width: 540px;
+  object-fit: contain;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.elegantshadow {
+  color: #131313;
+  background-color: #15131200;
+  letter-spacing: 0.15em;
+  text-shadow: 1px -1px 0 #767676, -1px 2px 1px #737272, -2px 4px 1px #767474,
+    -3px 6px 1px #787777, -4px 8px 1px #7b7a7a, -5px 10px 1px #7f7d7d,
+    -6px 12px 1px #828181, -7px 14px 1px #868585, -8px 16px 1px #8b8a89;
+}
+.button {
+  background-color: #e41111;
+  font-size: 30px;
+  color: #d2d2d2;
+  border-radius: 99px;
+  box-shadow: 2 5 5 5: #a95e13;
+  padding: 30;
+  width: 140px;
+  position: relative;
+  left: 50%;
+transform: translateX(-50%);
+ 
+}
